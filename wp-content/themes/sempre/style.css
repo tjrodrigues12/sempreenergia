@@ -1,0 +1,89 @@
+/*
+Theme Name: Sempre Energia
+Theme URI: http://www.sempreenergia.com.br/
+Description: Tema personalizado
+Author: Thiago Rodrigues
+Author URI: http://www.sempreenergia.com.br/
+version: 1.0
+*/
+/*! Place your custom styles here */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
+  /* color: #feba00; */
+  /* color: #f18f01; */
+  font-weight: 300;
+  font-variant-ligatures: common-ligatures;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* Header */
+header {
+  height: 650px;
+}
+
+div.col-sm-12 {
+  width: 100%;
+}
+
+a.nav-link {
+  color: #fff;
+  font-size: 0.857142857142857em;
+  line-height: 2.166666666666667em;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-shadow: 1px 1px #000;
+}
+
+.navbar {
+  padding-top: 10px;
+  height: 108px;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.logo {
+  width: 144px;
+}
+
+/* Spaces */
+.space-8 {
+  margin-top: 8px;
+}
+.space-24 {
+  margin-top: 16px;
+}
+
+.space-24 {
+  margin-top: 24px;
+}
+
+.slider {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 0;
+}
+
+.cal-social-bar {
+}
+
+.cal-social-bar a {
+  padding: 5px;
+  background: #f18f01;
+  border-color: #f18f01;
+  border-radius: 5px;
+  color: #fff;
+}
